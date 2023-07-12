@@ -2341,6 +2341,7 @@ ul {
 @media (max-width: 991px) {
     .discount .image{
         flex-basis: 100%;
+        padding: 20px;
     }
 }
 
@@ -2354,6 +2355,7 @@ ul {
 @media (max-width: 991px) {
     .discount .form{
         flex-basis: 100%;
+        padding: 20px;
     }
 }
 
@@ -2407,6 +2409,12 @@ ul {
 .discount .content h2 {
     font-size: 40px;
     letter-spacing: -2px;
+}
+
+@media (max-width: 991px) {
+    .discount .content h2 {
+        margin: 0 50px 20px;
+    }
 }
 
 .discount .content p {
